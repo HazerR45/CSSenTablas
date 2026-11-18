@@ -1,0 +1,35 @@
+table, th, td {border: 2px solid blue; 
+    border-collapse: collapse; 
+    margin:auto; 
+    text-align: center; 
+    vertical-align: middle;
+    width: 70vw;}
+
+th {font-size: 2em; 
+    font-style: italic;}
+
+tr {height: 75px;}
+
+tr:nth-child(odd) {background-color:aqua; 
+    color: black;}
+
+tr:nth-child(even) {background-color:blueviolet; 
+    color: white;}
+
+h1 {text-align: center;}
+
+/*Lo de arriba es de index.html, lo de abajo de margen.html*/
+
+#caja1 {border: 2px solid blue; 
+    background-color: lightblue; 
+    height: 300px; 
+    margin-left: 40px; 
+    margin-top: 40px;
+    width: 400px;}
+
+#caja2 {border: 2px solid green; 
+    background-color: lightgreen; 
+    height: 300px; 
+    margin-left: 40px; 
+    margin-top: 40px;
+    width: 400px;}
